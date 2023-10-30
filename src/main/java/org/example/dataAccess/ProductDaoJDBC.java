@@ -5,6 +5,6 @@ import org.example.entities.Product;
 public class ProductDaoJDBC {
 
     public void add(Product product) {
-        System.out.println("Added");
+        System.out.println("Added:" + product.getId());
     }
 }
